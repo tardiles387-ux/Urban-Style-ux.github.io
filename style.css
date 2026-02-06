@@ -126,6 +126,15 @@ h1, h2, h3 {
 	background: #1ebe5b;
 }
 
+footer {
+	margin-bottom: 20px;
+	align-items: center;
+	text-align: center;
+	color: #222;
+	background: #f5f5f5;
+	font size: 40px;
+}
+
 @media (max-width: 768px) {
 	.servicios-container, .productos-container {
 		flex-direction: column;
@@ -138,5 +147,9 @@ h1, h2, h3 {
 
 	.hero h1 {
 		font-size: 32px;
+	}
+
+	footer {
+		font-size: 16px;
 	}
 }
